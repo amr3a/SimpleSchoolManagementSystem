@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{bfdd2450-c85b-4baa-9909-0c4ab9b71c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{7b5214df-0fc4-4926-ba2f-e61a2ef238b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen">
+      <UniqueIdentifier>{1aaef468-5dfa-4b3f-9857-4be3493b4c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Logins">
+      <UniqueIdentifier>{f519db85-a7f6-47ad-abb6-3ec4f520134f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Students">
+      <UniqueIdentifier>{bba186bb-d6a3-4bc8-b0f4-3ded5d6b7382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Teachers">
+      <UniqueIdentifier>{1b4f9944-470b-4d80-b9fc-bd436b7fcdc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Users">
+      <UniqueIdentifier>{5c973633-1744-4df2-a001-edf3fbb7763d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Classes">
+      <UniqueIdentifier>{7524eb59-46d5-489d-90a5-6a21c080cca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Menues">
+      <UniqueIdentifier>{300c915a-7bc4-435e-a191-846d131388f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Globals">
+      <UniqueIdentifier>{f123db13-2158-4ffc-bfa9-65ac3dafe377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Globals\GlobalCLasses">
+      <UniqueIdentifier>{ca60d7ab-a70a-4a01-86f1-8b136eb20314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Globals\AbstractClasses">
+      <UniqueIdentifier>{e12960e6-42a8-4978-b2b9-961fbd6266ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Globals\GlobalFiles">
+      <UniqueIdentifier>{0f486311-acaa-423f-b95f-2fba07be4a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SharedClasses">
+      <UniqueIdentifier>{285f719f-5712-470b-9150-8bc27ac33fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Students\UpdateStudents">
+      <UniqueIdentifier>{f1d96a68-2fa9-4a60-a48c-927fe82b39cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue">
+      <UniqueIdentifier>{96ea9865-d5a3-418d-8820-9b5ae5efd84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Students\UpdateStudents\UpdateAddress">
+      <UniqueIdentifier>{3040a14f-476e-44ae-9e75-d9c33a3111a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsPerson.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsStudents.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTeachers.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUtil.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsString.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsClasses.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsSubjects.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsClassesMenue.h">
+      <Filter>Header Files\Screen\Menues</Filter>
+    </ClInclude>
+    <ClInclude Include="clsGradesMenue.h">
+      <Filter>Header Files\Screen\Menues</Filter>
+    </ClInclude>
+    <ClInclude Include="clsStudentsMenue.h">
+      <Filter>Header Files\Screen\Menues</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTeachersMenue.h">
+      <Filter>Header Files\Screen\Menues</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainMenue.h">
+      <Filter>Header Files\Screen\Menues</Filter>
+    </ClInclude>
+    <ClInclude Include="clsHeaderScreen.h">
+      <Filter>Header Files\Screen\Globals\GlobalCLasses</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMenue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowAllStudentsScreen.h">
+      <Filter>Header Files\Screen\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="FilesName.h">
+      <Filter>Header Files\Screen\Globals\GlobalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentScreen.h">
+      <Filter>Header Files\Screen\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteStudentScreen.h">
+      <Filter>Header Files\Screen\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindStudentScreen.h">
+      <Filter>Header Files\Screen\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsSharedStudentsFunctions.h">
+      <Filter>Header Files\SharedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewStudentScreen.h">
+      <Filter>Header Files\Screen\Students</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentMenue.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentStatusScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentFullNameMenue.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentFirstNameScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentSecondNameScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentFourthNameScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentThirdNameScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentFullNameScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentLastNameScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateStudentFullNameMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentBrithdateScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentAddressMenue.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateAddress</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentAddressScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateAddress</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentDistrictScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateAddress</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentNiegborhoodScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents\UpdateAddress</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentPhoneNumberScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentClassScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentRegestrationDateScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudentNoteScreen.h">
+      <Filter>Header Files\Screen\Students\UpdateStudents</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowTeachersListScreen.h">
+      <Filter>Header Files\Screen\Teachers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
