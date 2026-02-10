@@ -370,13 +370,14 @@ public:
 
 	clsTeachers(enMode mode, string firstName, string secondName, string thirdName, string fourthName, string lastName,
 		clsDate brithdate, string nieghboorhodName, string districtName, string phoneNumber, clsDate hireDate, 
-		enEducationLevel educationLevel, vector<clsClasses>  classesTaught, clsSubjects subjectTaught,  string teacherNote) :
+		enEducationLevel educationLevel, clsSubjects subjectTaught, vector<clsClasses>  classesTaught,  string teacherNote) :
 		clsPerson(firstName, secondName, thirdName, fourthName, lastName, brithdate, nieghboorhodName, districtName, phoneNumber) {
 
 		this->_mode = mode;
 		this->_educationLevel = educationLevel;
-		this->_vClassesTaught = classesTaught;
 		this->_subjectTaught = subjectTaught;
+		this->_vClassesTaught = classesTaught;
+		
 		this->_hireDate = hireDate;
 
 		this->_teacherNote = teacherNote;
@@ -401,10 +402,10 @@ public:
 	void setClassesTaught(vector<clsClasses> vClassesTaught) {
 		this->_vClassesTaught = vClassesTaught;
 	}
-	vector<clsClasses> getClassesTaught() const {
+	vector<clsClasses> getClassesTaught()  {
 		return this->_vClassesTaught;
 	}
-	__declspec(property(put = setClassesTaught, get = getClassesTaught)) clsSubjects subjectTaught;
+	__declspec(property(put = setClassesTaught, get = getClassesTaught)) vector<clsClasses> subjectTaught;
 
 	void setSubjectTaught(clsSubjects subjectTaught) {
 

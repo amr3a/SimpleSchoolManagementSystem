@@ -80,7 +80,7 @@ public :
 		return clsInputValidate::ReadOneWord("Enter student`s nieghborhood : ");
 	}
 	static string _readStudentDistrict() {
-		return clsInputValidate::ReadOneWord("Enter district Name : ");
+		return clsInputValidate::ReadOneWord("Enter student`s district Name : ");
 	}
 
 	static string _readStudentPhoneNumber() {
@@ -90,7 +90,7 @@ public :
 		return clsClasses(_readStudentenClass());
 	}
 	static clsDate _readStudentRegestrationDate() {
-		cout << "Enter student`s RegestrationDate :\n";
+		cout << "Enter student`s regestration Date :\n";
 		return clsInputValidate::ReadDateBetween(clsDate(1, 1, 2000), clsDate());
 	}
 	static string _readStudentNote() {

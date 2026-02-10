@@ -12,7 +12,7 @@ private:
 		BackToTeacherMenue
 	};
 	static enAddTeacherMenueOperation _readAddTeacherMenueOperation() {
-		cout << " Please enter a choice [ 1 - 3 ] : ";
+		cout << "Please enter a choice [ 1 - 3 ] : ";
 		return (enAddTeacherMenueOperation)clsInputValidate::ReadNumberBetween<short>(1, 3);
 	}
 	static void _backToMenue() {
@@ -21,10 +21,10 @@ private:
 		showMenue();
 	}
 	static void _addNewTeacher() {
-
+		showMainHeader("\t   Add New Teacher Screen");
 	}
 	static void _addOldTeacher() {
-
+		showMainHeader("\t   Add Old Teacher Screen");
 	}
 
 	static void _performAddTeacherMenueOperation(enAddTeacherMenueOperation userOption) {
@@ -51,7 +51,7 @@ public:
 	static  void showMenue() {
 		string Tabs = "     ";
 		string LineSperator = "=============================================";
-		showMainHeader("\tAdd New Teacher`s Menue Screen");
+		showMainHeader("\tAdd Teacher`s Menue Screen");
 	
 		cout << LineSperator << endl;
 		cout << Tabs << "[01] Add New Teacher.\n";

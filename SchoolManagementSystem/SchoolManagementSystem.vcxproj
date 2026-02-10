@@ -155,6 +155,7 @@
     <ClInclude Include="clsMainMenue.h" />
     <ClInclude Include="clsMenue.h" />
     <ClInclude Include="clsPerson.h" />
+    <ClInclude Include="clsSharedTeachersFunctions.h" />
     <ClInclude Include="clsShowAllStudentsScreen.h" />
     <ClInclude Include="clsShowTeachersListScreen.h" />
     <ClInclude Include="clsString.h" />

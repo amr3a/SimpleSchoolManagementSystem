@@ -203,5 +203,8 @@
     <ClInclude Include="clsMenue.h">
       <Filter>Header Files\Screen\Globals\GlobalCLasses</Filter>
     </ClInclude>
+    <ClInclude Include="clsSharedTeachersFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
