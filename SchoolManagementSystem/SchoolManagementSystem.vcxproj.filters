@@ -64,6 +64,9 @@
     <Filter Include="Header Files\Screen\Students\UpdateStudents\UpdateAddress">
       <UniqueIdentifier>{3040a14f-476e-44ae-9e75-d9c33a3111a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Screen\Teachers\AddTeacherMenue">
+      <UniqueIdentifier>{50d89e23-3daa-4a45-a322-669a99a9878c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -115,9 +118,6 @@
     </ClInclude>
     <ClInclude Include="clsHeaderScreen.h">
       <Filter>Header Files\Screen\Globals\GlobalCLasses</Filter>
-    </ClInclude>
-    <ClInclude Include="clsMenue.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clsShowAllStudentsScreen.h">
       <Filter>Header Files\Screen\Students</Filter>
@@ -196,6 +196,12 @@
     </ClInclude>
     <ClInclude Include="clsShowTeachersListScreen.h">
       <Filter>Header Files\Screen\Teachers</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddTeacherMenueScreen.h">
+      <Filter>Header Files\Screen\Teachers\AddTeacherMenue</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMenue.h">
+      <Filter>Header Files\Screen\Globals\GlobalCLasses</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

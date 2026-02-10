@@ -1,6 +1,6 @@
 #include<iostream>
 #include "clsMainMenue.h"
-#include "clsUpdateStudentMenue.h"
+#include "clsAddTeacherMenueScreen.h"
 #include "clsShowTeachersListScreen.h"
 #include "clsClasses.h"
 #include "iomanip"
@@ -9,8 +9,8 @@
 using namespace std;
 int main() {
 
-	clsMainMenue::showMenue();
-	
+	//clsMainMenue::showMenue();
+	clsAddTeacherMenueScreen::showMenue();
 
 	return 0;
 }

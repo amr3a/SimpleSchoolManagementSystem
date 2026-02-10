@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clsAddNewStudentScreen.h" />
+    <ClInclude Include="clsAddTeacherMenueScreen.h" />
     <ClInclude Include="clsClasses.h" />
     <ClInclude Include="clsClassesMenue.h" />
     <ClInclude Include="clsDate.h" />
